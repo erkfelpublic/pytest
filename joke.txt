@@ -1,0 +1,2 @@
+Why was the Python developer so bad at telling secrets?
+Because he kept sneaking in "indents"!
