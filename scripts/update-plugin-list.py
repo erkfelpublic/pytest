@@ -179,7 +179,9 @@ def iter_plugins() -> Iterator[PluginInfo]:
                 break
         name = f":pypi:`{info['name']}`"
         summary = ""
-        if info["summary"]:
+        if info["name"] == "pytest-joke":
+            summary = "Test failures are better served with humor. See :ref:`jokes`."
+        elif info["summary"]:
             summary = escape_rst(info["summary"].replace("\n", ""))
         yield {
             "name": name,
