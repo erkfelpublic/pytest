@@ -162,3 +162,9 @@ Copyright Holger Krekel and others, 2004.
 Distributed under the terms of the `MIT`_ license, pytest is free and open source software.
 
 .. _`MIT`: https://github.com/pytest-dev/pytest/blob/main/LICENSE
+
+
+A programmer's wife asks:
+"Would you go to the shop for me and buy a carton of milk, and if they have eggs, get a dozen?"
+
+The programmer returns with 12 cartons of milk.
