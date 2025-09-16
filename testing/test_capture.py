@@ -1126,6 +1126,13 @@ class TestStdCapture:
         assert out == "hello world\n"
         assert err == "hello error\n"
 
+    def test_yet_another_hello_world(self) -> None:
+        with self.getcapture() as cap:
+            print("yet another hello world")
+            out, err = cap.readouterr()
+        assert out == "yet another hello world\n"
+        assert not err
+
     def test_capturing_readouterr(self) -> None:
         with self.getcapture() as cap:
             print("hello world")
